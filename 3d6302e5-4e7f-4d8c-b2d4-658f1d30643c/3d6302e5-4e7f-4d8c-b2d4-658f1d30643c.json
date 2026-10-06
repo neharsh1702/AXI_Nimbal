@@ -8,8 +8,8 @@
       "AssigneeUserId": "",
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
       "Description": "",
-      "DateCreation": "10/6/2026 1:25:43 PM +00:00",
-      "DateModify": "10/6/2026 1:25:43 PM +00:00",
+      "DateCreation": "10/6/2026 1:25:45 PM +00:00",
+      "DateModify": "10/6/2026 1:25:45 PM +00:00",
       "Title": "C11 - Show only the last active version",
       "Type": "SubFlow",
       "IsDeleted": "False",
@@ -5410,7 +5410,66 @@
             ]
           }
         ],
-        "FlowProperties": []
+        "FlowProperties": [
+          {
+            "ParentBuildingBlockId": "26c60c2f-8296-4309-b405-b7fe43c2b744",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "",
+            "Type": "ModuleHeader",
+            "Key": "Header",
+            "Title": "",
+            "SortOrder": "0",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "1e6bdb96-f0ad-4f04-87b6-4d225d490a83",
+            "ChildProperties": [],
+            "Connections": []
+          },
+          {
+            "ParentBuildingBlockId": "26c60c2f-8296-4309-b405-b7fe43c2b744",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "f55e5107-54c3-4a0a-8068-4bce69579566",
+            "Type": "ExecutionModuleInput",
+            "Key": "ModuleInput",
+            "Title": "Execution Input",
+            "SortOrder": "1",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "bce7e24d-b5d7-488e-934d-94ef63203f94",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "bce7e24d-b5d7-488e-934d-94ef63203f94",
+                "InputFlowPropertyId": "9a0a7cec-c51e-4025-b7a7-5c121eda3f0b",
+                "Id": "d61cb8cb-f1ab-4e04-8ef1-be830508e057",
+                "WireGuides": []
+              }
+            ]
+          },
+          {
+            "ParentBuildingBlockId": "26c60c2f-8296-4309-b405-b7fe43c2b744",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "7473524c-a597-483e-bfdc-29f3cc6d49fe",
+            "Type": "ExecutionModuleOutput",
+            "Key": "ModuleOutput",
+            "Title": "Execution Output",
+            "SortOrder": "2",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "c489c311-9ca6-479f-b8ef-65de9968de01",
+            "ChildProperties": [],
+            "Connections": []
+          }
+        ]
       }
     }
   ],
@@ -5427,7 +5486,7 @@
     ],
     "FlowTreeHierarchyItem0": [
       {
-        "MetadataId": "5d25f156-7f58-4b3e-aa21-735893b78173",
+        "MetadataId": "af85969e-8162-4b91-92dd-393048935a14",
         "ParentId": "bce5e675-8fd6-4222-8262-39cebcb0958f",
         "Title": "Case Modeler (incl. Xpath)",
         "Description": "",
@@ -5531,7 +5590,7 @@
         "Id": "a5167316-40dc-4107-a683-c4c389a2a2a7"
       },
       {
-        "MetadataId": "356afb10-e4e8-4b34-a271-2034581e39a4",
+        "MetadataId": "dc33050b-64e6-4830-a220-c6ff74a753a4",
         "ParentId": "b8dbf3c4-2122-4b73-8334-21c1cd1b0e1e",
         "Title": "NIMBL Case Management",
         "Description": "",
@@ -5544,7 +5603,7 @@
         "Id": "bce5e675-8fd6-4222-8262-39cebcb0958f"
       },
       {
-        "MetadataId": "7a6ab651-671b-4e9a-838a-93fef885410b",
+        "MetadataId": "db1a8265-e90e-43ca-ad5e-c25b3b8e4976",
         "ParentId": "0e94e8b7-2454-4f22-b868-db929a6f7304",
         "Title": "Journeys",
         "Description": "",
@@ -5596,7 +5655,7 @@
         "Id": "c819d5f5-93b6-464c-a5c6-94aa199c6173"
       },
       {
-        "MetadataId": "437d866e-f5e0-4d0f-9989-aa613061f219",
+        "MetadataId": "8fa825e7-aed7-4fee-9cae-5df28d558532",
         "ParentId": "bfd3839e-ea03-4fc0-b422-5003b1eb65b7",
         "Title": "Modelling Journey",
         "Description": "",
@@ -5731,27 +5790,6 @@
         "Id": "3291a9a7-35ad-4d26-b7e2-2e31702d65a2"
       },
       {
-        "Title": "NIMBL Case Management",
-        "Description": "",
-        "Type": "Folder",
-        "LinkedWith": "None",
-        "Id": "356afb10-e4e8-4b34-a271-2034581e39a4"
-      },
-      {
-        "Title": "Modelling Journey",
-        "Description": "",
-        "Type": "Folder",
-        "LinkedWith": "None",
-        "Id": "437d866e-f5e0-4d0f-9989-aa613061f219"
-      },
-      {
-        "Title": "Case Modeler (incl. Xpath)",
-        "Description": "",
-        "Type": "Folder",
-        "LinkedWith": "None",
-        "Id": "5d25f156-7f58-4b3e-aa21-735893b78173"
-      },
-      {
         "Title": "on <input> 2 - Copy",
         "Description": "",
         "Type": "WebElement",
@@ -5764,13 +5802,6 @@
         "Type": "WebElement",
         "LinkedWith": "None",
         "Id": "6c927788-d5b3-4d19-94a9-4d05687abff6"
-      },
-      {
-        "Title": "Journeys",
-        "Description": "",
-        "Type": "Folder",
-        "LinkedWith": "None",
-        "Id": "7a6ab651-671b-4e9a-838a-93fef885410b"
       },
       {
         "Title": "on <input>",
@@ -5787,11 +5818,25 @@
         "Id": "83e4c726-84d8-4cf4-b2a1-691715b408bd"
       },
       {
+        "Title": "Modelling Journey",
+        "Description": "",
+        "Type": "Folder",
+        "LinkedWith": "None",
+        "Id": "8fa825e7-aed7-4fee-9cae-5df28d558532"
+      },
+      {
         "Title": "selectContainer checkboxColumn <td>",
         "Description": "",
         "Type": "WebElement",
         "LinkedWith": "None",
         "Id": "9efa0f5d-8046-4c67-8f35-0297f270479c"
+      },
+      {
+        "Title": "Case Modeler (incl. Xpath)",
+        "Description": "",
+        "Type": "Folder",
+        "LinkedWith": "None",
+        "Id": "af85969e-8162-4b91-92dd-393048935a14"
       },
       {
         "Title": "Alle versies <button>",
@@ -5813,6 +5858,20 @@
         "Type": "WebElement",
         "LinkedWith": "None",
         "Id": "c68006a7-9158-44dd-a58b-304fb56b9e37"
+      },
+      {
+        "Title": "Journeys",
+        "Description": "",
+        "Type": "Folder",
+        "LinkedWith": "None",
+        "Id": "db1a8265-e90e-43ca-ad5e-c25b3b8e4976"
+      },
+      {
+        "Title": "NIMBL Case Management",
+        "Description": "",
+        "Type": "Folder",
+        "LinkedWith": "None",
+        "Id": "dc33050b-64e6-4830-a220-c6ff74a753a4"
       }
     ],
     "UsedTypes": [
@@ -6065,7 +6124,7 @@
       {
         "Uri": "http://srv-gltst-58.groundlion.be/#!/dashboard/searchtemplate",
         "Fields": "",
-        "StrategyListSource": "7cc8e86e-56b8-4a93-83f4-9726b4c477dc",
+        "StrategyListSource": "82eed3e3-c21c-4a92-8581-13cb524a5092",
         "HasImage": "False",
         "RawId": "30b24a27-531a-4921-9642-0a402811a7bd",
         "SelectedStrategyId": "20fcbd94-b54f-4665-b7db-1bf7409de209",
@@ -6081,7 +6140,7 @@
       {
         "Uri": "http://srv-gltst-58.groundlion.be/#!/dashboard/searchtemplate",
         "Fields": "",
-        "StrategyListSource": "27ca9732-92c0-40c4-a9b3-0d963894a251",
+        "StrategyListSource": "3f463f09-b410-44ab-a8fc-c753980117e7",
         "HasImage": "False",
         "RawId": "89869b34-4bfc-44d9-8c8a-b46a763fdccb",
         "SelectedStrategyId": "50100b26-a13d-45d4-99ea-327092d45510",
@@ -6097,7 +6156,7 @@
       {
         "Uri": "http://srv-gltst-58.groundlion.be/#!/dashboard/searchtemplate",
         "Fields": "",
-        "StrategyListSource": "d42bc752-d1f9-495f-ab48-2937db4ffe75",
+        "StrategyListSource": "fd3c6844-7c28-4cce-ab2b-9fc12e4d8e46",
         "HasImage": "False",
         "RawId": "c20f9d28-f51c-479e-b804-dc9d4f0af2f5",
         "SelectedStrategyId": "1fefc1a1-eae9-4c86-8b3e-7e585edcf0c1",
@@ -6113,7 +6172,7 @@
       {
         "Uri": "http://srv-gltst-58.groundlion.be/#!/dashboard/searchtemplate",
         "Fields": "",
-        "StrategyListSource": "73144356-405f-4c4f-bf30-5cc47ff6bb0b",
+        "StrategyListSource": "0c68176f-8e01-4c71-a065-af778fc817a7",
         "HasImage": "False",
         "RawId": "7260b11c-a1a6-41bd-a907-89db6fb8d1f9",
         "SelectedStrategyId": "64135c67-f277-42f5-9306-8766397ed11e",
@@ -6129,7 +6188,7 @@
       {
         "Uri": "http://srv-gltst-58.groundlion.be/#!/dashboard/searchtemplate",
         "Fields": "",
-        "StrategyListSource": "a678c5a3-5009-4a1b-a6b9-efd5948a5730",
+        "StrategyListSource": "70b478d7-8db4-4a18-bdea-0885cf167e0f",
         "HasImage": "False",
         "RawId": "7260b11c-a1a6-41bd-a907-89db6fb8d1f9",
         "SelectedStrategyId": "767d3c71-79fb-47c7-9b16-7dd51e6f4576",
@@ -6145,7 +6204,7 @@
       {
         "Uri": "http://srv-gltst-58.groundlion.be/#!/dashboard/searchtemplate",
         "Fields": "",
-        "StrategyListSource": "3f708f4b-f2ef-454e-8f96-a82a83cde4df",
+        "StrategyListSource": "b07f332d-7cdd-4a10-827e-df78ff0b7b93",
         "HasImage": "False",
         "RawId": "9b142dca-1010-4b82-8d13-aad695b8b1a3",
         "SelectedStrategyId": "5fbc6c97-ef71-48e7-9d12-acb1ab92fbc6",
@@ -6161,7 +6220,7 @@
       {
         "Uri": "http://srv-gltst-58.groundlion.be/#!/dashboard/searchtemplate",
         "Fields": "",
-        "StrategyListSource": "d2ce3409-b9c8-43f1-9371-2b078a41a78a",
+        "StrategyListSource": "3468d5cb-a060-47a0-ad86-d766f9aa1d10",
         "HasImage": "False",
         "RawId": "2db88e5a-ce98-48ab-91f4-d897963bb771",
         "SelectedStrategyId": "a8d47588-7a6d-4db1-9e2a-22783e8ac051",
@@ -6177,7 +6236,7 @@
       {
         "Uri": "http://srv-gltst-58.groundlion.be/#!/dashboard/searchtemplate",
         "Fields": "",
-        "StrategyListSource": "870feb4b-7db1-4d86-86d7-44b247436511",
+        "StrategyListSource": "c2cd2630-93b0-4348-a5de-382fbee0e0d1",
         "HasImage": "False",
         "RawId": "c20f9d28-f51c-479e-b804-dc9d4f0af2f5",
         "SelectedStrategyId": "911d1f81-815a-404f-9e24-5fb0168ad930",
@@ -6193,7 +6252,7 @@
       {
         "Uri": "http://srv-gltst-58.groundlion.be/#!/dashboard/searchtemplate",
         "Fields": "",
-        "StrategyListSource": "8d3d23dc-2ce5-4443-a60a-d07bafcdd26e",
+        "StrategyListSource": "cdeb8489-f369-4d7c-ba39-6f797c7b4ab5",
         "HasImage": "False",
         "RawId": "7b3c2fb7-0a0d-457e-9865-17fb10d54496",
         "SelectedStrategyId": "18278c7b-db40-40a2-8dbe-86f5bae57f7e",
@@ -6209,7 +6268,7 @@
       {
         "Uri": "http://srv-gltst-58.groundlion.be/#!/dashboard/searchtemplate",
         "Fields": "",
-        "StrategyListSource": "1f248a55-2bfb-4e2c-8311-7959199ada0a",
+        "StrategyListSource": "cee8d6f2-8c39-4aac-9fb1-cb1fb0d191b7",
         "HasImage": "False",
         "RawId": "c20f9d28-f51c-479e-b804-dc9d4f0af2f5",
         "SelectedStrategyId": "ce5a9e8b-ad08-4d90-afbd-2fafb8d844a0",
@@ -6225,7 +6284,7 @@
       {
         "Uri": "http://srv-gltst-58.groundlion.be/#!/dashboard/searchtemplate",
         "Fields": "",
-        "StrategyListSource": "8d5b7514-6bc3-486f-8796-05cc29fdcb39",
+        "StrategyListSource": "e5e3d42f-7f2c-4533-9cc8-2b08f1f5ad12",
         "HasImage": "False",
         "RawId": "c20f9d28-f51c-479e-b804-dc9d4f0af2f5",
         "SelectedStrategyId": "a81bc740-20fd-498f-bd25-282bbe270c66",
