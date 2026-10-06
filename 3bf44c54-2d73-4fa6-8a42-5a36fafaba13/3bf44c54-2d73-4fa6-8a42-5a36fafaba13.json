@@ -8,8 +8,8 @@
       "AssigneeUserId": "",
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
       "Description": "",
-      "DateCreation": "10/6/2026 1:25:00 PM +00:00",
-      "DateModify": "10/6/2026 1:25:00 PM +00:00",
+      "DateCreation": "10/6/2026 1:24:59 PM +00:00",
+      "DateModify": "10/6/2026 1:24:59 PM +00:00",
       "Title": "Get remaining text after word",
       "Type": "SubFlow",
       "IsDeleted": "False",
@@ -1092,7 +1092,131 @@
             ]
           }
         ],
-        "FlowProperties": []
+        "FlowProperties": [
+          {
+            "ParentBuildingBlockId": "9a0ed96f-0509-400c-a49d-27585ad704d4",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "",
+            "Type": "ModuleHeader",
+            "Key": "Header",
+            "Title": "",
+            "SortOrder": "0",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "006d8251-09ed-4840-9877-28b228d03edc",
+            "ChildProperties": [],
+            "Connections": []
+          },
+          {
+            "ParentBuildingBlockId": "9a0ed96f-0509-400c-a49d-27585ad704d4",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "55e14337-97dd-48bd-8db1-859f339a97a1",
+            "Type": "ExecutionModuleInput",
+            "Key": "ModuleInput",
+            "Title": "Execution Input",
+            "SortOrder": "1",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "0a196cf5-072f-4580-a513-6c664b5d0b58",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "0a196cf5-072f-4580-a513-6c664b5d0b58",
+                "InputFlowPropertyId": "2f2a6c8a-d945-4493-94e5-077f66b579be",
+                "Id": "53436357-7a20-4a06-b124-d5580a032c20",
+                "WireGuides": []
+              }
+            ]
+          },
+          {
+            "ParentBuildingBlockId": "9a0ed96f-0509-400c-a49d-27585ad704d4",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "bcb76f20-54e1-4cb2-ac6e-adcfc98a7401",
+            "Type": "ValueModuleInput",
+            "Key": "ModuleInput",
+            "Title": "Full Text",
+            "SortOrder": "2",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "30fce297-6971-4257-9d60-73e24a8d826e",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "30fce297-6971-4257-9d60-73e24a8d826e",
+                "InputFlowPropertyId": "8fa5ee20-12d2-4936-8061-71405af1a061",
+                "Id": "0f194557-2459-46bd-afdb-fe43c6c3cf2b",
+                "WireGuides": []
+              }
+            ]
+          },
+          {
+            "ParentBuildingBlockId": "9a0ed96f-0509-400c-a49d-27585ad704d4",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "4dadb4da-a4e9-4cc1-bc3e-e1d5e26eebe9",
+            "Type": "ValueModuleInput",
+            "Key": "ModuleInput",
+            "Title": "SearchText",
+            "SortOrder": "3",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "4de34c9a-76c3-40ca-a5c7-8d943ddb9f5a",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "4de34c9a-76c3-40ca-a5c7-8d943ddb9f5a",
+                "InputFlowPropertyId": "d8470c1f-3a76-44c1-87be-454f5300d4b3",
+                "Id": "f2c6b0a3-c82a-43eb-98ce-63ada2e3b15a",
+                "WireGuides": []
+              }
+            ]
+          },
+          {
+            "ParentBuildingBlockId": "9a0ed96f-0509-400c-a49d-27585ad704d4",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "426a9438-7690-43b4-a94e-6a27ce03c48e",
+            "Type": "ExecutionModuleOutput",
+            "Key": "ModuleOutput",
+            "Title": "Execution Output",
+            "SortOrder": "4",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "57a11ff4-1d5d-4045-b8ae-dd962dc3f98d",
+            "ChildProperties": [],
+            "Connections": []
+          },
+          {
+            "ParentBuildingBlockId": "9a0ed96f-0509-400c-a49d-27585ad704d4",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "3aa00a2d-0a78-4ef9-9863-38d0ff6c8909",
+            "Type": "ValueModuleOutput",
+            "Key": "ModuleOutput",
+            "Title": "Value Output",
+            "SortOrder": "5",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "77562b5d-f4de-48de-a9f8-a0f4c32610a7",
+            "ChildProperties": [],
+            "Connections": []
+          }
+        ]
       }
     }
   ],
