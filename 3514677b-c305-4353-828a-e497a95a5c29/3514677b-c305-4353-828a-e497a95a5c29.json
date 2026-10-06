@@ -2204,7 +2204,90 @@
             ]
           }
         ],
-        "FlowProperties": []
+        "FlowProperties": [
+          {
+            "ParentBuildingBlockId": "9076bd22-ef2b-406d-8836-06fd911fd828",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "8968ac1a-f5ad-4ae2-9420-e8168ad5413c",
+            "Type": "ValueModuleInput",
+            "Key": "ModuleInput",
+            "Title": "FilterName",
+            "SortOrder": "2",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "622dd39c-e98a-4c94-8306-d0ae746aefdd",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "622dd39c-e98a-4c94-8306-d0ae746aefdd",
+                "InputFlowPropertyId": "6106fae7-2480-42c2-935b-10718f0e8f0d",
+                "Id": "247b7f3e-075c-4b33-90f3-2a0cd7f5c39d",
+                "WireGuides": []
+              }
+            ]
+          },
+          {
+            "ParentBuildingBlockId": "9076bd22-ef2b-406d-8836-06fd911fd828",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "",
+            "Type": "ExecutionModuleInput",
+            "Key": "ModuleInput",
+            "Title": "Start SUB_Set Task Filter",
+            "SortOrder": "1",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "8207e094-e131-4bde-b8e7-4c2ae2cf6320",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "8207e094-e131-4bde-b8e7-4c2ae2cf6320",
+                "InputFlowPropertyId": "68defd88-7486-4ea3-bc9f-7bc17caaba0a",
+                "Id": "91eeeac4-0e9f-43f3-adc2-f6dfbbc5f796",
+                "WireGuides": []
+              }
+            ]
+          },
+          {
+            "ParentBuildingBlockId": "9076bd22-ef2b-406d-8836-06fd911fd828",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "67cbadfd-59d2-47e8-a82c-c33ad143cdae",
+            "Type": "ExecutionModuleOutput",
+            "Key": "ModuleOutput",
+            "Title": "Pass",
+            "SortOrder": "3",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "de5dadfc-93cd-41ce-866c-21c32463f481",
+            "ChildProperties": [],
+            "Connections": []
+          },
+          {
+            "ParentBuildingBlockId": "9076bd22-ef2b-406d-8836-06fd911fd828",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "",
+            "Type": "ModuleHeader",
+            "Key": "Header",
+            "Title": "",
+            "SortOrder": "0",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "f4772ebd-5e4e-4deb-9888-e10e9fedda8d",
+            "ChildProperties": [],
+            "Connections": []
+          }
+        ]
       }
     }
   ],
@@ -2221,7 +2304,7 @@
     ],
     "FlowTreeHierarchyItem0": [
       {
-        "MetadataId": "7e9d4633-8c08-4d4a-9f2d-4d32104f7cd1",
+        "MetadataId": "44ec87e3-fe8b-4f3a-b217-7132c759ad1e",
         "ParentId": "4a41380d-a49e-41b8-8d09-16d35e821702",
         "Title": "SUB_Flows",
         "Description": "",
@@ -2273,7 +2356,7 @@
         "Id": "4847bae6-0c51-4a3e-a70d-998dcbba7e82"
       },
       {
-        "MetadataId": "18bcf426-84c5-4922-8dad-46f85e5b5c7f",
+        "MetadataId": "301d3282-241a-4d08-bc96-4fd0dcf1a887",
         "ParentId": "b25945b9-ab7a-4ad3-b079-28e4b218d6e0",
         "Title": "Try-out",
         "Description": "",
@@ -2299,7 +2382,7 @@
         "Id": "aafb2dd6-a7db-4693-ba45-8c8f3b2d1a07"
       },
       {
-        "MetadataId": "d114cf20-1a1e-4ddd-9bf5-cc7f3b17d313",
+        "MetadataId": "2306b8ec-fd26-4604-9806-187dc3dc9931",
         "ParentId": "dd541f41-6776-4dbd-8f95-6b0affb98139",
         "Title": "HVLM",
         "Description": "",
@@ -2325,7 +2408,7 @@
         "Id": "da9d2264-4fc1-46f8-a1af-506dd9f0b9d7"
       },
       {
-        "MetadataId": "3d4e3f3f-67b8-44eb-b9a7-fd7aac8faf8e",
+        "MetadataId": "6ccc4825-6122-4789-9006-c277591d61f4",
         "ParentId": "b8dbf3c4-2122-4b73-8334-21c1cd1b0e1e",
         "Title": "OLD",
         "Description": "",
@@ -2378,25 +2461,32 @@
     ],
     "HierarchyItemMetadata1": [
       {
+        "Title": "HVLM",
+        "Description": "",
+        "Type": "Folder",
+        "LinkedWith": "None",
+        "Id": "2306b8ec-fd26-4604-9806-187dc3dc9931"
+      },
+      {
         "Title": "Try-out",
         "Description": "",
         "Type": "Folder",
         "LinkedWith": "None",
-        "Id": "18bcf426-84c5-4922-8dad-46f85e5b5c7f"
-      },
-      {
-        "Title": "OLD",
-        "Description": "",
-        "Type": "Folder",
-        "LinkedWith": "None",
-        "Id": "3d4e3f3f-67b8-44eb-b9a7-fd7aac8faf8e"
+        "Id": "301d3282-241a-4d08-bc96-4fd0dcf1a887"
       },
       {
         "Title": "SUB_Flows",
         "Description": "",
         "Type": "Folder",
         "LinkedWith": "None",
-        "Id": "7e9d4633-8c08-4d4a-9f2d-4d32104f7cd1"
+        "Id": "44ec87e3-fe8b-4f3a-b217-7132c759ad1e"
+      },
+      {
+        "Title": "OLD",
+        "Description": "",
+        "Type": "Folder",
+        "LinkedWith": "None",
+        "Id": "6ccc4825-6122-4789-9006-c277591d61f4"
       },
       {
         "Title": "Referentie <div> 1",
@@ -2425,13 +2515,6 @@
         "Type": "WebElement",
         "LinkedWith": "None",
         "Id": "c3ab9818-d3bc-4a56-94e1-68007f7b563c"
-      },
-      {
-        "Title": "HVLM",
-        "Description": "",
-        "Type": "Folder",
-        "LinkedWith": "None",
-        "Id": "d114cf20-1a1e-4ddd-9bf5-cc7f3b17d313"
       },
       {
         "Title": "Filter toevoegen <button> 1",
@@ -2699,7 +2782,7 @@
       {
         "Uri": "http://srv-gltst-22.groundlion.be/?main-tabpanel=caseTaskWidget",
         "Fields": "System.Collections.Generic.List`1[LeapTest.Entities.UIElements.Web.WebDynamicFieldEntity]",
-        "StrategyListSource": "da831ff8-6a09-46bb-b656-a5c7efed3592",
+        "StrategyListSource": "a011d29c-bd4b-4740-a893-8119ae9ae1d2",
         "HasImage": "False",
         "RawId": "03c9d026-260c-4191-8fe9-887f1bf7e914",
         "SelectedStrategyId": "8150bbce-52f9-439c-979c-a11378e0d7aa",
@@ -2715,7 +2798,7 @@
       {
         "Uri": "http://srv-gltst-22.groundlion.be/?main-tabpanel=caseTaskWidget",
         "Fields": "",
-        "StrategyListSource": "37e530bf-0c9e-4429-ba23-e5781e736f4c",
+        "StrategyListSource": "cf6269b6-7b7f-44de-8d9a-58a2346a6ea5",
         "HasImage": "False",
         "RawId": "6f320365-b5d4-48d6-9bc8-5c08f049ed8d",
         "SelectedStrategyId": "d2ba7064-7b3e-4dd5-abea-460aa39cafb7",
@@ -2731,7 +2814,7 @@
       {
         "Uri": "http://srv-gltst-22.groundlion.be/?main-tabpanel=caseTaskWidget",
         "Fields": "",
-        "StrategyListSource": "8f2ac1bd-dee4-4489-9c18-dc6d487b95c6",
+        "StrategyListSource": "a8d1d308-856c-46f1-9af1-8e1990efeace",
         "HasImage": "False",
         "RawId": "3233c779-ec78-48b3-b677-b7da0f98ba5c",
         "SelectedStrategyId": "56ed4bb5-1a05-4027-9c74-7bf860f75fd8",
@@ -2747,7 +2830,7 @@
       {
         "Uri": "http://srv-gltst-22.groundlion.be/?main-tabpanel=caseTaskWidget",
         "Fields": "",
-        "StrategyListSource": "5dbf7994-5d65-4a85-80e9-2c7bfb5c6e70",
+        "StrategyListSource": "5279b792-4a4a-487a-94cf-d44f37bc90fb",
         "HasImage": "False",
         "RawId": "0caae11d-22fb-4a49-b807-bd619b3dc4d8",
         "SelectedStrategyId": "ab3c7a22-495b-4ea9-8eb3-eec72a82c50c",
