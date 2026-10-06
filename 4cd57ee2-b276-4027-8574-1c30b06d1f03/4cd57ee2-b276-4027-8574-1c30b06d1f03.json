@@ -8,8 +8,8 @@
       "AssigneeUserId": "",
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
       "Description": "",
-      "DateCreation": "10/6/2026 1:21:53 PM +00:00",
-      "DateModify": "10/6/2026 1:21:53 PM +00:00",
+      "DateCreation": "10/6/2026 1:22:12 PM +00:00",
+      "DateModify": "10/6/2026 1:22:12 PM +00:00",
       "Title": "set testorders aanmaken",
       "Type": "SubFlow",
       "IsDeleted": "False",
@@ -1752,7 +1752,66 @@
             ]
           }
         ],
-        "FlowProperties": []
+        "FlowProperties": [
+          {
+            "ParentBuildingBlockId": "827801b0-147e-409c-9260-fab8592805cc",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "",
+            "Type": "ModuleHeader",
+            "Key": "Header",
+            "Title": "",
+            "SortOrder": "0",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "169b7268-c60b-459e-8383-8de7e6d425cc",
+            "ChildProperties": [],
+            "Connections": []
+          },
+          {
+            "ParentBuildingBlockId": "827801b0-147e-409c-9260-fab8592805cc",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "",
+            "Type": "ExecutionModuleOutput",
+            "Key": "ModuleOutput",
+            "Title": "Pass",
+            "SortOrder": "1",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "3fcb161f-3282-4342-b501-c81ba1cf1398",
+            "ChildProperties": [],
+            "Connections": []
+          },
+          {
+            "ParentBuildingBlockId": "827801b0-147e-409c-9260-fab8592805cc",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "",
+            "Type": "ExecutionModuleInput",
+            "Key": "ModuleInput",
+            "Title": "Click Web Element",
+            "SortOrder": "2",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "52267f6f-c276-4f93-a755-5dbb88047138",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "52267f6f-c276-4f93-a755-5dbb88047138",
+                "InputFlowPropertyId": "7585aa88-4dff-4c25-8472-7966c91feabc",
+                "Id": "6253edaa-aa0f-494e-b5f8-76f2d9eaa889",
+                "WireGuides": []
+              }
+            ]
+          }
+        ]
       }
     }
   ],
@@ -1781,7 +1840,7 @@
     ],
     "FlowTreeHierarchyItem0": [
       {
-        "MetadataId": "ce963189-d093-4c16-bb50-0f3e3a0ee088",
+        "MetadataId": "9f42230a-8775-4f9c-b749-372d0d146440",
         "ParentId": "dd541f41-6776-4dbd-8f95-6b0affb98139",
         "Title": "VVLR",
         "Description": "",
@@ -1872,7 +1931,7 @@
         "Id": "9995808d-06b0-4542-b5d7-b5b6ae8992be"
       },
       {
-        "MetadataId": "bf4c7c64-324e-4634-854b-7da9934cfa07",
+        "MetadataId": "ee8a80b2-b6e7-4b90-b77c-21ee22921814",
         "ParentId": "fccc1994-6c91-4a38-875f-2956cb7a040b",
         "Title": "APSM",
         "Description": "",
@@ -1924,7 +1983,7 @@
         "Id": "da3a9334-3453-4faa-ac35-6b409685b2a3"
       },
       {
-        "MetadataId": "6e43fe9a-ff25-4dde-8a7f-5f5b49beac05",
+        "MetadataId": "47b0910b-ac57-49fd-b29f-1f2a52421ada",
         "ParentId": "9e06aa5f-7544-4aff-b28f-2dc0de63e77c",
         "Title": "Colaps",
         "Description": "",
@@ -1937,7 +1996,7 @@
         "Id": "dcbae635-373c-4445-8af8-85d3dd202679"
       },
       {
-        "MetadataId": "d844f3f8-82f2-4cc7-a481-6b938aaf98ec",
+        "MetadataId": "cff0709e-1b38-47a3-a38e-61b3e0f325a2",
         "ParentId": "b8dbf3c4-2122-4b73-8334-21c1cd1b0e1e",
         "Title": "OLD",
         "Description": "",
@@ -1950,7 +2009,7 @@
         "Id": "dd541f41-6776-4dbd-8f95-6b0affb98139"
       },
       {
-        "MetadataId": "d1f5bd8b-808d-497e-b9d6-004658651b1e",
+        "MetadataId": "97c50588-c55b-41e9-9296-b3d57e7963d1",
         "ParentId": "0c1e8913-3e25-462f-a6f4-6744e611447a",
         "Title": "Retail BE",
         "Description": "",
@@ -2044,6 +2103,13 @@
         "Id": "412adfe8-cd5a-4368-9205-5f267c40a2ca"
       },
       {
+        "Title": "Colaps",
+        "Description": "",
+        "Type": "Folder",
+        "LinkedWith": "None",
+        "Id": "47b0910b-ac57-49fd-b29f-1f2a52421ada"
+      },
+      {
         "Title": "Aanmaken test klantorders <button> 1",
         "Description": "",
         "Type": "WebElement",
@@ -2058,18 +2124,25 @@
         "Id": "69d742da-7e5c-4a12-bced-0733799e6b67"
       },
       {
-        "Title": "Colaps",
-        "Description": "",
-        "Type": "Folder",
-        "LinkedWith": "None",
-        "Id": "6e43fe9a-ff25-4dde-8a7f-5f5b49beac05"
-      },
-      {
         "Title": "set testorders aanmaken",
         "Description": "",
         "Type": "SubFlow",
         "LinkedWith": "None",
         "Id": "827801b0-147e-409c-9260-fab8592805cc"
+      },
+      {
+        "Title": "Retail BE",
+        "Description": "",
+        "Type": "Folder",
+        "LinkedWith": "None",
+        "Id": "97c50588-c55b-41e9-9296-b3d57e7963d1"
+      },
+      {
+        "Title": "VVLR",
+        "Description": "",
+        "Type": "Folder",
+        "LinkedWith": "None",
+        "Id": "9f42230a-8775-4f9c-b749-372d0d146440"
       },
       {
         "Title": "email <input>",
@@ -2079,32 +2152,18 @@
         "Id": "b5f18f51-7e1a-433b-abd1-9cad322f719c"
       },
       {
-        "Title": "APSM",
-        "Description": "",
-        "Type": "Folder",
-        "LinkedWith": "None",
-        "Id": "bf4c7c64-324e-4634-854b-7da9934cfa07"
-      },
-      {
-        "Title": "VVLR",
-        "Description": "",
-        "Type": "Folder",
-        "LinkedWith": "None",
-        "Id": "ce963189-d093-4c16-bb50-0f3e3a0ee088"
-      },
-      {
-        "Title": "Retail BE",
-        "Description": "",
-        "Type": "Folder",
-        "LinkedWith": "None",
-        "Id": "d1f5bd8b-808d-497e-b9d6-004658651b1e"
-      },
-      {
         "Title": "OLD",
         "Description": "",
         "Type": "Folder",
         "LinkedWith": "None",
-        "Id": "d844f3f8-82f2-4cc7-a481-6b938aaf98ec"
+        "Id": "cff0709e-1b38-47a3-a38e-61b3e0f325a2"
+      },
+      {
+        "Title": "APSM",
+        "Description": "",
+        "Type": "Folder",
+        "LinkedWith": "None",
+        "Id": "ee8a80b2-b6e7-4b90-b77c-21ee22921814"
       },
       {
         "Title": "1 Collect and Go Halle NL 2 Collect & Go Arlon 200 <select>",
@@ -2371,7 +2430,7 @@
       {
         "Uri": "http://colappsrv01:8080/bo19mswb/f?p=907041:10:14007860314696:::RP,10::",
         "Fields": "",
-        "StrategyListSource": "3b3e9a26-47ca-46c2-82d6-2b2648e455dd",
+        "StrategyListSource": "0efba20d-3ac7-45a8-aaf3-8ff78a803beb",
         "HasImage": "False",
         "RawId": "746ad815-a6a6-4400-bb5b-163c3035329e",
         "SelectedStrategyId": "47c1ddea-b69f-4688-a9fa-75a751a1b224",
@@ -2387,7 +2446,7 @@
       {
         "Uri": "http://colappsrv01:8080/bo19mswb/f?p=TESTDATA_MT:1:14007860314696::NO::::&c=COLAPS",
         "Fields": "",
-        "StrategyListSource": "8b565738-26cf-4708-be40-f8b18adc5343",
+        "StrategyListSource": "4ce0ca77-4733-400d-8d8a-477e38e50603",
         "HasImage": "False",
         "RawId": "4e98e69b-fa51-4b9a-bf26-2b657adf0ee2",
         "SelectedStrategyId": "de0d84c1-8a7a-4bb2-9fd8-2b5a366a89ae",
@@ -2403,7 +2462,7 @@
       {
         "Uri": "http://colappsrv01:8080/bo19mswb/f?p=907041:10:14007860314696:::RP,10::",
         "Fields": "",
-        "StrategyListSource": "f8f1d352-38b4-469e-8b58-6c88902d0b40",
+        "StrategyListSource": "37bf6ea3-ff87-45a0-880b-64d8e4f6f7d9",
         "HasImage": "False",
         "RawId": "8033ec54-79a6-43af-8a8c-f20c88a2e3f7",
         "SelectedStrategyId": "910e4f78-3566-4ab5-a111-29a2c29d245c",
@@ -2419,7 +2478,7 @@
       {
         "Uri": "http://colappsrv01:8080/bo19mswb/f?p=907041:10:14007860314696:::RP,10::",
         "Fields": "",
-        "StrategyListSource": "d971a55a-2f02-4252-b1a8-c60984ca8f8f",
+        "StrategyListSource": "85560318-6f1b-4bff-a43d-178bb25d8179",
         "HasImage": "False",
         "RawId": "e3cfc9b5-38d7-48e3-8969-42230299d17f",
         "SelectedStrategyId": "f9258041-2e38-4f22-a35c-bd0b518a8844",
@@ -2435,7 +2494,7 @@
       {
         "Uri": "http://colappsrv01:8080/bo19mswb/f?p=907041:10:14007860314696:::RP,10::",
         "Fields": "",
-        "StrategyListSource": "0fde6ed8-b7d8-4032-951f-e934c77cf3b8",
+        "StrategyListSource": "71069a39-3408-4a01-97a7-b04fd1961997",
         "HasImage": "False",
         "RawId": "724db485-7bd4-4c9d-a1c8-a6f636ffb58f",
         "SelectedStrategyId": "8f9a9220-70c3-4955-9e53-5c6bb7ad9e94",
@@ -2451,7 +2510,7 @@
       {
         "Uri": "http://colappsrv01:8080/bo19mswb/f?p=907041:10:14007860314696:::RP,10::",
         "Fields": "",
-        "StrategyListSource": "bc4dff92-ef71-46da-a268-04f122c25bd2",
+        "StrategyListSource": "30f83bc7-4eb3-43f8-a00d-bb117e2cc4d4",
         "HasImage": "False",
         "RawId": "294fc1e5-4743-4122-b61f-ecc72a4d14f0",
         "SelectedStrategyId": "714b4185-9917-42de-9530-ce9f2a5a4aa8",
@@ -2467,7 +2526,7 @@
       {
         "Uri": "http://colappsrv01:8080/bo19mswb/f?p=907041:10:14007860314696:::RP,10::",
         "Fields": "",
-        "StrategyListSource": "11768f57-ec07-4736-a6db-817dd53beebb",
+        "StrategyListSource": "0fffbc30-a14b-4c42-868e-c8efadfcde71",
         "HasImage": "False",
         "RawId": "846e0afe-8d0a-4a7e-931a-8ceea0035885",
         "SelectedStrategyId": "a76ffc1d-5138-4857-aefe-08c19c04faaa",
