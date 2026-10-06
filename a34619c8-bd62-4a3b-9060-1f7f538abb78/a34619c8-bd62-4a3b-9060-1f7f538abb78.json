@@ -8,8 +8,8 @@
       "AssigneeUserId": "",
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
       "Description": "",
-      "DateCreation": "10/6/2026 1:22:49 PM +00:00",
-      "DateModify": "10/6/2026 1:22:49 PM +00:00",
+      "DateCreation": "10/6/2026 1:22:53 PM +00:00",
+      "DateModify": "10/6/2026 1:22:53 PM +00:00",
       "Title": "Subflow_Login",
       "Type": "SubFlow",
       "IsDeleted": "False",
@@ -2757,7 +2757,138 @@
             ]
           }
         ],
-        "FlowProperties": []
+        "FlowProperties": [
+          {
+            "ParentBuildingBlockId": "34cc1246-527e-474f-a7d6-718a8e04a998",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "719c33a6-739c-4ddf-b0d7-a53cc4e13260",
+            "Type": "ExecutionModuleOutput",
+            "Key": "ModuleOutput",
+            "Title": "Execution Output",
+            "SortOrder": "5",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "23be61a9-434e-4004-a34a-f2a99039148c",
+            "ChildProperties": [],
+            "Connections": []
+          },
+          {
+            "ParentBuildingBlockId": "34cc1246-527e-474f-a7d6-718a8e04a998",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "6307ce65-b744-48c5-8a17-208f22a63c9c",
+            "Type": "ValueModuleInput",
+            "Key": "ModuleInput",
+            "Title": "NameToValidate",
+            "SortOrder": "4",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "4cacf161-a6ca-45ed-9874-dfb176dc5a4d",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "4cacf161-a6ca-45ed-9874-dfb176dc5a4d",
+                "InputFlowPropertyId": "4d274840-48cd-4992-87dc-8929494a7f23",
+                "Id": "22e010f6-a4a7-4dff-b41d-2b7fd03bf785",
+                "WireGuides": []
+              }
+            ]
+          },
+          {
+            "ParentBuildingBlockId": "34cc1246-527e-474f-a7d6-718a8e04a998",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "",
+            "Type": "ModuleHeader",
+            "Key": "Header",
+            "Title": "",
+            "SortOrder": "0",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "8907a89f-9489-4091-8293-66f1d374be8e",
+            "ChildProperties": [],
+            "Connections": []
+          },
+          {
+            "ParentBuildingBlockId": "34cc1246-527e-474f-a7d6-718a8e04a998",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "2b9650d3-83f8-45d3-9596-f583e8e412ed",
+            "Type": "ValueModuleInput",
+            "Key": "ModuleInput",
+            "Title": "UserName",
+            "SortOrder": "2",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "bc91ae6e-32fb-47be-b96c-4f93f264ce22",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "bc91ae6e-32fb-47be-b96c-4f93f264ce22",
+                "InputFlowPropertyId": "7d180ce6-66b0-4495-98e0-5493c8b22718",
+                "Id": "e8a9a5ee-19cb-4dbb-89b9-4fb4519386eb",
+                "WireGuides": []
+              }
+            ]
+          },
+          {
+            "ParentBuildingBlockId": "34cc1246-527e-474f-a7d6-718a8e04a998",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "abe9e1d4-fc85-4750-9e86-9ec10b46d2f0",
+            "Type": "ValueModuleInput",
+            "Key": "ModuleInput",
+            "Title": "Password",
+            "SortOrder": "3",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "d2e827cc-dea7-4307-82e8-bef56724f8bc",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "d2e827cc-dea7-4307-82e8-bef56724f8bc",
+                "InputFlowPropertyId": "e46d83b5-66e6-4b04-b33e-e726433071e9",
+                "Id": "c97e92a6-4c08-42db-bbf8-cd8d1869fffe",
+                "WireGuides": []
+              }
+            ]
+          },
+          {
+            "ParentBuildingBlockId": "34cc1246-527e-474f-a7d6-718a8e04a998",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "a232d4c0-72f4-4506-960b-590f7376edb4",
+            "Type": "ExecutionModuleInput",
+            "Key": "ModuleInput",
+            "Title": "Execution Input",
+            "SortOrder": "1",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "d85f5ad2-b4e6-42ee-b90c-5f8212b55414",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "d85f5ad2-b4e6-42ee-b90c-5f8212b55414",
+                "InputFlowPropertyId": "d8eb53f3-9b55-435f-a98d-1915a597e732",
+                "Id": "6e66a270-7005-4c97-9cfe-005e8f399565",
+                "WireGuides": []
+              }
+            ]
+          }
+        ]
       }
     }
   ],
@@ -2826,8 +2957,8 @@
         "Id": "4017bfe7-1ee1-43fc-8c04-a0ebef5b4988"
       },
       {
-        "MetadataId": "7f2fc9a6-f025-425d-b416-060ee91d185f",
-        "ParentId": "f9a76922-ac6c-4644-aa16-b1f19ce7dd16",
+        "MetadataId": "d40de209-1ada-49f2-bccf-fd9bea86e475",
+        "ParentId": "ff9c3ef3-b987-4c68-8987-609d9b9321d0",
         "Title": "Subflow_Start Journey",
         "Description": "",
         "Type": "Folder",
@@ -2839,7 +2970,7 @@
         "Id": "9054dec8-2dd8-4d88-b38e-59b1c6068c69"
       },
       {
-        "MetadataId": "fd7bfe4d-ff08-4d24-a8b4-e5d213396a46",
+        "MetadataId": "3b9f7536-9cbb-444f-9f57-b2e5ae62fcf8",
         "ParentId": "b8dbf3c4-2122-4b73-8334-21c1cd1b0e1e",
         "Title": "NIMBL Angular Case Management",
         "Description": "",
@@ -2865,7 +2996,7 @@
         "Id": "dc391a5d-ffc4-47b8-841d-84592a4c2dcd"
       },
       {
-        "MetadataId": "7a5e0f8a-60ac-4bb0-b4bd-5725d033ad13",
+        "MetadataId": "72c65342-a7a2-4848-b08b-c8e4f64a3beb",
         "ParentId": "b5932c8d-0843-4e82-b14a-a2a55a8bdd8c",
         "Title": "Generic flows",
         "Description": "",
@@ -2875,7 +3006,7 @@
         "DateModify": "11/25/2024 12:31:31 PM +00:00",
         "PreviousSiblingId": "69987108-36b0-4049-b81f-e77b4dd55248",
         "LinkedWith": "None",
-        "Id": "f9a76922-ac6c-4644-aa16-b1f19ce7dd16"
+        "Id": "ff9c3ef3-b987-4c68-8987-609d9b9321d0"
       }
     ],
     "FlowTreeHierarchyItemSortOrder2": [
@@ -2909,7 +3040,7 @@
       },
       {
         "PreviousSiblingId": "69987108-36b0-4049-b81f-e77b4dd55248",
-        "Id": "f9a76922-ac6c-4644-aa16-b1f19ce7dd16"
+        "Id": "ff9c3ef3-b987-4c68-8987-609d9b9321d0"
       }
     ],
     "HierarchyItemMetadata1": [
@@ -2928,18 +3059,18 @@
         "Id": "34cc1246-527e-474f-a7d6-718a8e04a998"
       },
       {
+        "Title": "NIMBL Angular Case Management",
+        "Description": "",
+        "Type": "Folder",
+        "LinkedWith": "None",
+        "Id": "3b9f7536-9cbb-444f-9f57-b2e5ae62fcf8"
+      },
+      {
         "Title": "Generic flows",
         "Description": "",
         "Type": "Folder",
         "LinkedWith": "None",
-        "Id": "7a5e0f8a-60ac-4bb0-b4bd-5725d033ad13"
-      },
-      {
-        "Title": "Subflow_Start Journey",
-        "Description": "",
-        "Type": "Folder",
-        "LinkedWith": "None",
-        "Id": "7f2fc9a6-f025-425d-b416-060ee91d185f"
+        "Id": "72c65342-a7a2-4848-b08b-c8e4f64a3beb"
       },
       {
         "Title": "text <input>",
@@ -2956,11 +3087,11 @@
         "Id": "b94c1ad9-861d-4b6a-bb1d-2a41eaa38639"
       },
       {
-        "Title": "NIMBL Angular Case Management",
+        "Title": "Subflow_Start Journey",
         "Description": "",
         "Type": "Folder",
         "LinkedWith": "None",
-        "Id": "fd7bfe4d-ff08-4d24-a8b4-e5d213396a46"
+        "Id": "d40de209-1ada-49f2-bccf-fd9bea86e475"
       },
       {
         "Title": "icon-button user-switcher__toggle <button>",
@@ -3228,7 +3359,7 @@
       {
         "Uri": "http://srv-gltst-54.groundlion.be/account/login",
         "Fields": "",
-        "StrategyListSource": "c3c8b273-b5fc-4e39-997a-0a7de6bbd7c5",
+        "StrategyListSource": "067339c7-b062-4f4b-80fb-99a190cf4484",
         "HasImage": "False",
         "RawId": "ba542734-447f-4e9a-b05e-0b9eb35974e3",
         "SelectedStrategyId": "ea2675ce-2363-40b9-b9ab-f0ac0ba7c99b",
@@ -3244,7 +3375,7 @@
       {
         "Uri": "http://srv-gltst-54.groundlion.be/account/login",
         "Fields": "",
-        "StrategyListSource": "be19a7e8-bd16-4f03-8506-92f0dc3ae036",
+        "StrategyListSource": "fe1883d6-be7a-4484-aec6-76da2468af00",
         "HasImage": "False",
         "RawId": "b0c3d886-6023-4d87-b93b-90fc1d8f33e9",
         "SelectedStrategyId": "f53b184e-a6e4-4aa4-b449-926ca042d99a",
@@ -3260,7 +3391,7 @@
       {
         "Uri": "http://srv-gltst-54.groundlion.be/account/login",
         "Fields": "",
-        "StrategyListSource": "f7bb0e99-be9f-492f-bbda-ec937924f1a4",
+        "StrategyListSource": "8268c560-81eb-4c0b-8272-d51ea26964c2",
         "HasImage": "False",
         "RawId": "9b68de55-9fe9-43dd-96d6-398a47e7aad4",
         "SelectedStrategyId": "f6d77f89-c210-4c7e-b28c-8ca58ac9632f",
@@ -3276,7 +3407,7 @@
       {
         "Uri": "http://srv-gltst-68.groundlion.be/home",
         "Fields": "System.Collections.Generic.List`1[LeapTest.Entities.UIElements.Web.WebDynamicFieldEntity]",
-        "StrategyListSource": "51aac299-2dc0-40b8-a94e-e08279fb288a",
+        "StrategyListSource": "6402f0ff-5814-44e1-88d8-29b32629644a",
         "HasImage": "False",
         "RawId": "2efe01d4-87c2-441c-bf8e-8760cdba2b94",
         "SelectedStrategyId": "6ad3e046-9370-446d-8db5-16bf78c2ffe1",
