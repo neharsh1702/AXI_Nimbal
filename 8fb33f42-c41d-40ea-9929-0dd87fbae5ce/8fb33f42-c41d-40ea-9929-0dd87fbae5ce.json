@@ -8,8 +8,8 @@
       "AssigneeUserId": "",
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
       "Description": "",
-      "DateCreation": "10/6/2026 1:21:05 PM +00:00",
-      "DateModify": "10/6/2026 1:21:05 PM +00:00",
+      "DateCreation": "10/6/2026 1:21:06 PM +00:00",
+      "DateModify": "10/6/2026 1:21:06 PM +00:00",
       "Title": "Fill in translations",
       "Type": "SubFlow",
       "IsDeleted": "False",
@@ -1206,7 +1206,83 @@
             ]
           }
         ],
-        "FlowProperties": []
+        "FlowProperties": [
+          {
+            "ParentBuildingBlockId": "97d8d2fe-95d5-4419-8407-1988d10d5ef2",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "",
+            "Type": "ExecutionModuleOutput",
+            "Key": "ModuleOutput",
+            "Title": "Set variable",
+            "SortOrder": "2",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "8a866115-6c2c-4512-8491-b3fb9c8c1d54",
+            "ChildProperties": [],
+            "Connections": []
+          },
+          {
+            "ParentBuildingBlockId": "97d8d2fe-95d5-4419-8407-1988d10d5ef2",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "",
+            "Type": "ExecutionModuleOutput",
+            "Key": "ModuleOutput",
+            "Title": "Click Web Element",
+            "SortOrder": "3",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "b485b171-2903-46cf-a6e8-bbf091a611b0",
+            "ChildProperties": [],
+            "Connections": []
+          },
+          {
+            "ParentBuildingBlockId": "97d8d2fe-95d5-4419-8407-1988d10d5ef2",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "",
+            "Type": "ExecutionModuleInput",
+            "Key": "ModuleInput",
+            "Title": "Click Web Element",
+            "SortOrder": "1",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "b77da2c7-84d0-45e0-a073-6c550796145f",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "b77da2c7-84d0-45e0-a073-6c550796145f",
+                "InputFlowPropertyId": "0c3a54f7-8864-4344-919a-04555d0fec5c",
+                "Id": "36120dbb-a7c6-4b13-a7d6-95ee435c9e5a",
+                "WireGuides": []
+              }
+            ]
+          },
+          {
+            "ParentBuildingBlockId": "97d8d2fe-95d5-4419-8407-1988d10d5ef2",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "",
+            "Type": "ModuleHeader",
+            "Key": "Header",
+            "Title": "",
+            "SortOrder": "0",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "fbc94081-c9a0-46cb-a88b-06ec9d223462",
+            "ChildProperties": [],
+            "Connections": []
+          }
+        ]
       }
     }
   ],
@@ -1236,7 +1312,7 @@
         "Id": "0cbd7120-e3b4-47c0-865d-877ea7a6bf81"
       },
       {
-        "MetadataId": "6de29170-dfc2-418f-8a9e-5a83eb21494a",
+        "MetadataId": "701f4912-1360-4db4-9036-98833cfcaa2f",
         "ParentId": "bce5e675-8fd6-4222-8262-39cebcb0958f",
         "Title": "Case Modeler (incl. Xpath)",
         "Description": "",
@@ -1262,7 +1338,7 @@
         "Id": "3a60bf83-147a-47fa-937f-6e4b2a077434"
       },
       {
-        "MetadataId": "7194d7df-939b-41fa-b912-716fcd8dd7b5",
+        "MetadataId": "e219df91-82c1-4b4a-acde-18ae8461c2f7",
         "ParentId": "8349872b-4bea-49af-b90a-0a604402c76a",
         "Title": "C54 - String",
         "Description": "",
@@ -1288,7 +1364,7 @@
         "Id": "5618d671-4ea2-4d5b-843c-0f8c609a3849"
       },
       {
-        "MetadataId": "b1bec450-c852-41b0-a8c3-3edc489aac50",
+        "MetadataId": "31cb0c1e-823a-40ac-8278-2ec34c23e574",
         "ParentId": "0e94e8b7-2454-4f22-b868-db929a6f7304",
         "Title": "File model",
         "Description": "",
@@ -1314,7 +1390,7 @@
         "Id": "8e5b1eb1-5f9d-4096-90e8-5e8061c6c571"
       },
       {
-        "MetadataId": "863ffaec-d41a-49af-ab6d-d04e1cfb68a6",
+        "MetadataId": "eb3b1fe9-d728-48bb-9bfb-7847629a1097",
         "ParentId": "b8dbf3c4-2122-4b73-8334-21c1cd1b0e1e",
         "Title": "NIMBL Case Management",
         "Description": "",
@@ -1404,25 +1480,18 @@
         "Id": "0f65e526-b435-4992-b87e-9b00a11fee81"
       },
       {
+        "Title": "File model",
+        "Description": "",
+        "Type": "Folder",
+        "LinkedWith": "None",
+        "Id": "31cb0c1e-823a-40ac-8278-2ec34c23e574"
+      },
+      {
         "Title": "Case Modeler (incl. Xpath)",
         "Description": "",
         "Type": "Folder",
         "LinkedWith": "None",
-        "Id": "6de29170-dfc2-418f-8a9e-5a83eb21494a"
-      },
-      {
-        "Title": "C54 - String",
-        "Description": "",
-        "Type": "Folder",
-        "LinkedWith": "None",
-        "Id": "7194d7df-939b-41fa-b912-716fcd8dd7b5"
-      },
-      {
-        "Title": "NIMBL Case Management",
-        "Description": "",
-        "Type": "Folder",
-        "LinkedWith": "None",
-        "Id": "863ffaec-d41a-49af-ab6d-d04e1cfb68a6"
+        "Id": "701f4912-1360-4db4-9036-98833cfcaa2f"
       },
       {
         "Title": "Fill in translations",
@@ -1446,18 +1515,25 @@
         "Id": "ad4826da-7169-4ab8-8d28-7c45293e2f07"
       },
       {
-        "Title": "File model",
-        "Description": "",
-        "Type": "Folder",
-        "LinkedWith": "None",
-        "Id": "b1bec450-c852-41b0-a8c3-3edc489aac50"
-      },
-      {
         "Title": "Ok <button> 1",
         "Description": "",
         "Type": "WebElement",
         "LinkedWith": "None",
         "Id": "ba536701-c0c9-407e-8be5-dcb90c206b6e"
+      },
+      {
+        "Title": "C54 - String",
+        "Description": "",
+        "Type": "Folder",
+        "LinkedWith": "None",
+        "Id": "e219df91-82c1-4b4a-acde-18ae8461c2f7"
+      },
+      {
+        "Title": "NIMBL Case Management",
+        "Description": "",
+        "Type": "Folder",
+        "LinkedWith": "None",
+        "Id": "eb3b1fe9-d728-48bb-9bfb-7847629a1097"
       },
       {
         "Title": "text <input> 17",
@@ -1717,7 +1793,7 @@
       {
         "Uri": "http://srv-gltst-22.groundlion.be/#!/task/TEST-2023-0159-LW?taskId=4851a3ce-d503-4016-a090-f10c4e80fce5&from=#!/case/TEST-2023-0159-LW",
         "Fields": "",
-        "StrategyListSource": "5b9a6a26-0007-477a-ad5f-3e7c228fada0",
+        "StrategyListSource": "ec2d84f0-3072-462e-a359-0f269f618af9",
         "HasImage": "False",
         "RawId": "08f97e19-e645-4e6f-991c-757332502a70",
         "SelectedStrategyId": "98397835-3489-49ce-9dbf-ce283624451f",
@@ -1733,7 +1809,7 @@
       {
         "Uri": "http://srv-gltst-22.groundlion.be/#!/task/TEST-2023-0162-LW?taskId=f0567122-1a57-49fb-bcad-b27743814eef&from=#!/case/TEST-2023-0162-LW",
         "Fields": "",
-        "StrategyListSource": "d6738433-d9ad-4482-a39e-a8019686a726",
+        "StrategyListSource": "40e8a1c6-dc3d-426c-bb6d-eb060e5b4662",
         "HasImage": "False",
         "RawId": "ba32f1c8-1483-4f58-9c0a-bb35247745a9",
         "SelectedStrategyId": "35455c2f-b01e-4765-a6fd-b7007c3d4898",
@@ -1749,7 +1825,7 @@
       {
         "Uri": "http://srv-gltst-22.groundlion.be/#!/task/TEST-2023-0159-LW?taskId=4851a3ce-d503-4016-a090-f10c4e80fce5&from=#!/case/TEST-2023-0159-LW",
         "Fields": "",
-        "StrategyListSource": "3cc0dc48-42a9-4876-abf7-6b5f8fd2464c",
+        "StrategyListSource": "ba2f31d6-d1ab-49a3-8b3e-5a568869bfcc",
         "HasImage": "False",
         "RawId": "37c2e657-e8ca-4ba6-93c2-cf5615e29f6f",
         "SelectedStrategyId": "76e6debe-c80f-4f98-9e65-330c48f099f6",
@@ -1765,7 +1841,7 @@
       {
         "Uri": "http://srv-gltst-22.groundlion.be/#!/task/TEST-2023-0159-LW?taskId=4851a3ce-d503-4016-a090-f10c4e80fce5&from=#!/case/TEST-2023-0159-LW",
         "Fields": "",
-        "StrategyListSource": "ad044733-dbbc-46cb-8b13-8aee40ec9eb8",
+        "StrategyListSource": "a137eebf-9219-46c5-9bd9-9417a463c549",
         "HasImage": "False",
         "RawId": "589b2542-02fe-4f85-8ddb-4aad76aebf32",
         "SelectedStrategyId": "70badbb3-156a-4e3b-aba8-e1865345bc08",
@@ -1781,7 +1857,7 @@
       {
         "Uri": "http://srv-gltst-22.groundlion.be/#!/task/TEST-2023-0159-LW?taskId=4851a3ce-d503-4016-a090-f10c4e80fce5&from=#!/case/TEST-2023-0159-LW",
         "Fields": "",
-        "StrategyListSource": "c0c77e81-a261-436e-b642-e9d1096f1fba",
+        "StrategyListSource": "2dfd05ca-1b01-497b-b242-83c7337fe2cd",
         "HasImage": "False",
         "RawId": "2fbe6cf3-3eb7-42e6-84e2-f83db9eb0fd9",
         "SelectedStrategyId": "e2cee028-66cb-430f-bf26-5db7e2f7c4fb",
