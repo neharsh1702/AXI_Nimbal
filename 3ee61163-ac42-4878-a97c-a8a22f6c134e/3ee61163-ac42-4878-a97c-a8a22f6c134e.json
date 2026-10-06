@@ -8,8 +8,8 @@
       "AssigneeUserId": "",
       "WorkflowStatusId": "1368161e-584c-4c64-999d-85dd0eed4370",
       "Description": "",
-      "DateCreation": "10/6/2026 1:27:57 PM +00:00",
-      "DateModify": "10/6/2026 1:27:57 PM +00:00",
+      "DateCreation": "10/6/2026 1:28:02 PM +00:00",
+      "DateModify": "10/6/2026 1:28:02 PM +00:00",
       "Title": "SUB_Set Filter",
       "Type": "SubFlow",
       "IsDeleted": "False",
@@ -1819,7 +1819,90 @@
             ]
           }
         ],
-        "FlowProperties": []
+        "FlowProperties": [
+          {
+            "ParentBuildingBlockId": "ff43dc3b-8c73-44b2-8695-e466f58d1d98",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "",
+            "Type": "ModuleHeader",
+            "Key": "Header",
+            "Title": "",
+            "SortOrder": "0",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "48c2157c-0f48-468c-ab31-cb2c45fc9662",
+            "ChildProperties": [],
+            "Connections": []
+          },
+          {
+            "ParentBuildingBlockId": "ff43dc3b-8c73-44b2-8695-e466f58d1d98",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "8968ac1a-f5ad-4ae2-9420-e8168ad5413c",
+            "Type": "ValueModuleInput",
+            "Key": "ModuleInput",
+            "Title": "FilterName",
+            "SortOrder": "2",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "4ea8432f-60c5-4adb-b3c6-5ef1159275ef",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "4ea8432f-60c5-4adb-b3c6-5ef1159275ef",
+                "InputFlowPropertyId": "972f9607-7232-4ab2-b460-439fc7eb2c97",
+                "Id": "226198cc-d745-47a7-a869-639cef771ef6",
+                "WireGuides": []
+              }
+            ]
+          },
+          {
+            "ParentBuildingBlockId": "ff43dc3b-8c73-44b2-8695-e466f58d1d98",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "67cbadfd-59d2-47e8-a82c-c33ad143cdae",
+            "Type": "ExecutionModuleOutput",
+            "Key": "ModuleOutput",
+            "Title": "Pass",
+            "SortOrder": "3",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "bd501248-954e-445f-a2d9-2d3117764f69",
+            "ChildProperties": [],
+            "Connections": []
+          },
+          {
+            "ParentBuildingBlockId": "ff43dc3b-8c73-44b2-8695-e466f58d1d98",
+            "ParentFlowPropertyId": "",
+            "TemplateId": "",
+            "Type": "ExecutionModuleInput",
+            "Key": "ModuleInput",
+            "Title": "Start SUB_Set Filter",
+            "SortOrder": "1",
+            "ValueId": "",
+            "LType": "LSignal",
+            "IsExpanded": "False",
+            "IsBlockPropertyChecked": "",
+            "CustomSortOrder": "0",
+            "Id": "e172230c-d854-4870-8809-953e472f3588",
+            "ChildProperties": [],
+            "Connections": [
+              {
+                "OutputFlowPropertyId": "e172230c-d854-4870-8809-953e472f3588",
+                "InputFlowPropertyId": "1719a843-a1d7-4d4c-acfc-e5266e258033",
+                "Id": "8394e93b-84d5-4bab-8d98-2bd53c0f4453",
+                "WireGuides": []
+              }
+            ]
+          }
+        ]
       }
     }
   ],
@@ -1901,7 +1984,7 @@
         "Id": "b001d0ae-6442-4295-8b4f-df35a281a0eb"
       },
       {
-        "MetadataId": "ba80ec43-2146-46fd-b3f1-294161489e44",
+        "MetadataId": "de1daa4b-44c0-4632-9a77-8b8befa9e5ed",
         "ParentId": "b8dbf3c4-2122-4b73-8334-21c1cd1b0e1e",
         "Title": "NIMBL Case Management",
         "Description": "",
@@ -1914,7 +1997,7 @@
         "Id": "bce5e675-8fd6-4222-8262-39cebcb0958f"
       },
       {
-        "MetadataId": "56429964-c482-4b45-a7eb-1dd32902ef94",
+        "MetadataId": "ef8cb2a1-a2b0-4cd9-87ed-3664c7e85036",
         "ParentId": "bce5e675-8fd6-4222-8262-39cebcb0958f",
         "Title": "SUB Flows",
         "Description": "",
@@ -1959,13 +2042,6 @@
     ],
     "HierarchyItemMetadata1": [
       {
-        "Title": "SUB Flows",
-        "Description": "",
-        "Type": "Folder",
-        "LinkedWith": "None",
-        "Id": "56429964-c482-4b45-a7eb-1dd32902ef94"
-      },
-      {
         "Title": "Tekst <div>",
         "Description": "",
         "Type": "WebElement",
@@ -1980,18 +2056,25 @@
         "Id": "8f546172-dcad-475e-a2c6-6c9494cd5999"
       },
       {
-        "Title": "NIMBL Case Management",
-        "Description": "",
-        "Type": "Folder",
-        "LinkedWith": "None",
-        "Id": "ba80ec43-2146-46fd-b3f1-294161489e44"
-      },
-      {
         "Title": "<input> 1",
         "Description": "",
         "Type": "WebElement",
         "LinkedWith": "None",
         "Id": "bcd3108f-7e11-4e3f-9bb5-6cb655217c48"
+      },
+      {
+        "Title": "NIMBL Case Management",
+        "Description": "",
+        "Type": "Folder",
+        "LinkedWith": "None",
+        "Id": "de1daa4b-44c0-4632-9a77-8b8befa9e5ed"
+      },
+      {
+        "Title": "SUB Flows",
+        "Description": "",
+        "Type": "Folder",
+        "LinkedWith": "None",
+        "Id": "ef8cb2a1-a2b0-4cd9-87ed-3664c7e85036"
       },
       {
         "Title": "Filter toevoegen <button> 1",
@@ -2266,7 +2349,7 @@
       {
         "Uri": "",
         "Fields": "System.Collections.Generic.List`1[LeapTest.Entities.UIElements.Web.WebDynamicFieldEntity]",
-        "StrategyListSource": "7200f4a9-d561-4716-b0cc-740e33c9e6ad",
+        "StrategyListSource": "946188e6-1373-46cc-827d-905f1e1f12dd",
         "HasImage": "False",
         "RawId": "ade53343-6d40-40cc-95ca-44557d5cf712",
         "SelectedStrategyId": "8aa093d2-fffd-45fa-ba35-b41bd6f1f0fd",
@@ -2282,7 +2365,7 @@
       {
         "Uri": "http://srv-gltst-22.groundlion.be/#!/home?main-tabpanel=caseTaskWidget",
         "Fields": "",
-        "StrategyListSource": "cd56afa4-7e0b-4221-b0ed-cb870c9523e6",
+        "StrategyListSource": "fb3287b2-c2a2-49f5-a363-4204c6820013",
         "HasImage": "False",
         "RawId": "1bcae3f7-f6ee-44f4-bc2c-2be2621905af",
         "SelectedStrategyId": "0a3a6da0-1358-467b-87ab-1a9ad6060724",
@@ -2298,7 +2381,7 @@
       {
         "Uri": "http://srv-gltst-22.groundlion.be/#!/home?main-tabpanel=caseTaskWidget",
         "Fields": "",
-        "StrategyListSource": "ecb523d8-4b67-4642-a0ac-37e4d53d4e4f",
+        "StrategyListSource": "920a250d-9dad-4105-95ba-31ad4746e7b9",
         "HasImage": "False",
         "RawId": "68394164-4b12-48fe-a2d2-1a3e58f40c60",
         "SelectedStrategyId": "1346775e-a55c-44d8-9ecc-e318be3e29e7",
@@ -2314,7 +2397,7 @@
       {
         "Uri": "http://srv-gltst-22.groundlion.be/?main-tabpanel=caseTaskWidget",
         "Fields": "",
-        "StrategyListSource": "ae13b7e7-ec57-4c7e-88a3-9199bc92a1d3",
+        "StrategyListSource": "e5295614-3501-4762-81e5-b577e452d7e0",
         "HasImage": "False",
         "RawId": "0caae11d-22fb-4a49-b807-bd619b3dc4d8",
         "SelectedStrategyId": "79de540a-6dbc-4202-b911-0e31c51c75fc",
